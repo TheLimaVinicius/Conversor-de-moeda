@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor monetário</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor monetário
+        </h1>
+        <p class="page-subtitle">
+            Descubra os valores em Real R$
+        </p>
+        <label for="moeda">Insira o valor em Reais.</label><br>
+
+        <div class="selecaoMoeda">
+            <input type="number" id="valor" size="2" placeholder="BRL" />
+            <select id="moedaReferencia">
+                <option value="euro" selected>Euro</option>
+                <option value="dolar">Dólar</option>
+                <option value="iene">Iene</option>
+                <option value="btc">Bitcoin</option>
+            </select>
+            <br><br>
+        </div>
+        <button id="btn" type="submit" onclick="converter()">Converter</button>
+        <h2 id="valorConvertido"></h2>
+    </div>
+
+
+    <a href="https://github.com/TheLimaVinicius" target="_blank">
+        <img src="./img/github-10-xxl.png" alt="" class="github-logo">
+        </div>
+
+
+
+        <script type="text/javascript" src="./src.js"></script>
+</body>
+
+</html>
